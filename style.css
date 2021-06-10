@@ -32,11 +32,13 @@ color:black;
     font-family: Bahnschrift Condensed;
     font-size: 25px;
 }
-div ul li.dropdownIcon{
+div ul li.dropDownIcon{
     display: none;
 }
 div ul li.r-contact{
-    margin-left: 500px;
+    margin-left: 600px;
+    border:3px solid black;
+    border-radius: 25px;
 }
 
 
