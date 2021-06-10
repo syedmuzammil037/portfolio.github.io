@@ -3,6 +3,31 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.nav{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    font-family:  Bahnschrift, Condensed;
+    font-size: 25px;
+}
+
+.nav ul{
+    margin-left: 20px;
+    list-style: none;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+}
+.nav ul li{
+    margin: 20px;
+    padding: 2px;
+    border-radius: 8px;
+}
 .nav  a{
 text-decoration: none;
 color:black;
@@ -10,35 +35,21 @@ color:black;
 .nav  a:hover{
     color: rgb(252, 186, 5);
 }
-.nav{
-    position:sticky;
-    top: 0;
-    background-color: whitesmoke;
-    display: flex;  
-    
-}
+
 .nav ul .logo{
     height: 35px;
     width: 35px;
     background-size: cover;
 }
 
-.list li{
-    list-style: none;
-    margin: 20px;
-    padding: 2px;
 
-    display: inline;
-    font-family: Bahnschrift Condensed;
-    font-size: 25px;
-}
 div ul li.dropDownIcon{
     display: none;
 }
 div ul li.r-contact{
-    margin-left: 600px;
     border:3px solid black;
     border-radius: 25px;
+    margin-left: 600px;
 }
 
 
@@ -112,6 +123,7 @@ header div .resume a:hover{
     padding: 3px;
     font-size: 75%;
     width: 420px;
+    margin: 10px;
 
 }
 .contaner2 .aca{
@@ -158,9 +170,7 @@ header div .resume a:hover{
     *{
         padding: 2px;
     }
-    .nav{
-        position: absolute;
-    }
+
     div.nav ul li{
         display: none;
     }
