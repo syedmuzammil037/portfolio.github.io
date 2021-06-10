@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body{
+    font-family: Nunito; 
+    background-color: rgba(71, 81, 226, 0.726);
+}
+body a{
+    text-decoration: none;
+    color: rgba(1, 10, 10, 0.726);
+    font-size: 20px;
+    border: 2px solid black;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 25px;
+
+}
+.contaner div h2{
+    margin-bottom: 65px;
+}
+body a:hover{
+    background-color: black;
+    color: cornsilk;
+    
+}
+section{
+    text-align: center;
+
+}
+.contaner{
+    display: flex;
+    background-color: rgb(52, 255, 171);
+    border-radius: 25px;
+
+}
+.contaner div{
+    text-align: center;
+    width: 25%;
+    height: 200px;
+    font-size: 70%;
+    margin: 5%;
+    border: 1px solid black;
+    border-radius: 25px;
+
+}
+.contaner div:hover{
+    background-color:rgba(255, 255, 255, 0.863)
+}
+.contaner .box1{
+    text-align: center;
+    background-image: url(vhdl2.jfif);
+    background-size: cover;
+
+}
+.contaner .box1:hover{
+    background-image: none;
+}
+@media (max-width:500px){
+    .contaner{
+        display: block;
+        padding: 5%;
+    }
+    .contaner div{
+        width: 90%;
+    }
+    
+
+}

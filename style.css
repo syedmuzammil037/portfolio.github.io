@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav  a{
+text-decoration: none;
+color:black;
+}
+.nav  a:hover{
+    color: rgb(252, 186, 5);
+}
+.nav{
+    position:sticky;
+    top: 0;
+    background-color: whitesmoke;
+    display: flex;  
+    
+}
+.nav ul .logo{
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+}
+
+.list li{
+    list-style: none;
+    margin: 20px;
+    padding: 2px;
+
+    display: inline;
+    font-family: Bahnschrift Condensed;
+    font-size: 25px;
+}
+div ul li.dropdownIcon{
+    display: none;
+}
+div ul li.r-contact{
+    margin-left: 500px;
+}
+
+
+/*head*/
+
+header.head{
+    background-image: url(head12.jpg);
+    height: 500px;
+    background-size: cover;  
+}
+
+
+header div .resume a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    border-radius: 25px;
+    width: 10%;
+    border: 2px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+header div .resume a:hover{
+    color: whitesmoke;
+    background-color: black;
+}
+.iam{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 200px;
+}
+.iam1{
+    font-size: 25px;
+    color:rgb(252, 186, 5);
+    
+}
+/*about me*/
+.about{
+    text-align: center;
+    font-family: "eurostile", sans-serif;;
+    font-size: 30px;
+}
+.contaner{
+    display: flex;
+    font-family: Bahnschrift Condensed;
+}
+.contaner .box1{
+    text-align: center;
+    width: 70%;
+}
+.contaner .box2{
+    width: 30%;
+    text-align: center;
+}
+/*skills*/
+.contaner2{
+    display: flex;
+    width: 100%;
+    height: 330px;
+    text-align: center;
+    background-color: rgb(252, 186, 5) ;
+    padding: 5px;
+    font-family: Bahnschrift Condensed;
+    border: 1px solid black;
+}
+.contaner2 .box{
+    border: 1px solid black;
+    padding: 3px;
+    font-size: 75%;
+    width: 420px;
+
+}
+.contaner2 .aca{
+    width:33.33%;
+    height:45%;
+}
+.contaner2 .box:hover{
+    background-color: whitesmoke;
+}
+.contaner2 .box a{
+    text-decoration: none;
+    border: 2px solid black;
+    font-family: Bahnschrift Condensed;
+    background-color: rgb(252, 186, 5) ;
+    border-radius: 25px;
+    padding:3px;
+    color: black;
+    
+}
+.contaner2 .box a:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+/*footer*/
+.foot{
+    display: flex;
+    background-color: rgba(0, 185, 185, 0.637);
+    padding: 10px;
+}
+.foot .contact ul{
+    list-style: none;
+}
+.foot .contact{
+    width: 50%;
+    text-align: center;
+
+}
+.foot .img{
+    width:50%;
+    text-align: center;
+}   
+ 
+@media (max-width:500px){
+    *{
+        padding: 2px;
+    }
+    .nav{
+        position: absolute;
+    }
+    div.nav ul li{
+        display: none;
+    }
+    div.nav ul li.dropDownIcon{
+        display: block;
+        position: absolute;
+    }
+    div.nav ul.topnav.responsive{
+        position: absolute;
+        background-color:whitesmoke;
+        width: 97vw;
+        height:fit-content;
+        text-align: center;
+
+    }
+    div.nav ul.topnav.responsive li.dropDownIcon{
+        float: left;
+    }
+    div.nav ul.topnav.responsive li{
+        display: block;
+        float:none;
+    }
+
+    header{
+        width:100%;
+    }
+    .iam{
+        font-size: 30px;
+    }
+    .iam1{
+        font-size: 20px;
+    }
+    .contaner{
+        display: block;
+        height:fit-content;
+    }
+    .contaner .box1{
+        text-align: center;
+        width: 100%;
+    }
+    .contaner .box2{
+        text-align: center;
+        width: 100%;
+    }
+    .contaner2{
+        display: block;
+        height:fit-content;
+    }
+    .contaner2 .box{
+        width: 100%;
+    }
+    .foot{
+        display: block;
+    }
+    .foot .contact{
+        width: 100%;
+        text-align: center;
+    
+    }
+    .foot .img{
+        width:100%;
+        text-align: center;
+        
+    } 
+
+   
+
+}   

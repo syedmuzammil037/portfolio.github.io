@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="nav list">
+     
+        <ul class="topnav" id="dropdownClick">
+            <li class="dropDownIcon"><a href="javascript:void(0)" onclick="dropDown()">&#9776</a></li>
+         <li class="ar"><img class="logo" src="logo.jpg"></li>
+         <li class="ar"><a href="./index.html">HOME</a></li>
+         <li class="ar"><a href="https://github.com/syedmuzammil037">GitHub</a></li>
+         <li class="ar"><a href="#">Blogs</a></li>
+         <li class="ar"><a href="./resume.html">Resume</a></li>
+         <li class="r-contact ar"><a href="#foot1">Contact</a></li>
+         
+        </ul>
+     
+     </div>
+
+        
+        
+     
+    <header class="head">
+        <div class="iam">
+            Hi I'm Syed Muzammil<br>
+            <section class="iam1">Designer, Front-end Developer<br>I design and code beautifully simple things,
+             and I love what I do.</section>
+            <section class="resume"><a href="#">Portfolio</a></section>
+        </div>
+    </header>
+    <br>
+    <hr>
+    <br>
+    <div class="about">
+        About me. 
+    </div>
+    <div class="contaner">
+        <div class="box1">
+            <p>
+                Currently a student of Electronics & Communication Engineering,
+                At <a href="https://mjcollege.ac.in/">MJCET</a>. Wanted to be a full stack-developer
+            </p>
+        </div>
+        <div class="box2">
+         <img src="images (2).jfif">
+        </div>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div class="contaner2">
+        <div class="box">
+            <img class="aca" src="download.jfif">
+            <h3>Academics</h3>
+            <p>
+                You can know my acadamic results in my carear so far. 
+           </p>
+           
+        </div>
+        <div class="box">
+            <img class="aca" src="download (1).jfif">
+            <h3>Cretificates</h3>
+            <p>
+               You can see some Cretificate of my corses by varesus orgasisers like corsers,intershala,udemy.
+
+           </p>
+        </div>
+        <div class="box">
+            <img class="aca" src="project.jfif">
+            <h3>Projects</h3>
+            <p>
+                Some of my projects which are done by me in group and individual.projects are of academics and non academics.To see my projects click on "My projects"
+        
+
+            </p><br>
+            <a href="project.html" >My projects</a>
+        </div>
+
+    </div>
+    <br>
+    <hr>
+    <br>
+    <h1 id="foot1">Contact me.</h1>
+    <footer class="foot">
+        
+        <div class="contact">
+        <ul>
+            <li>Email id : muzammil037.syed@gmail.com</li><br>
+            <li>Phone NO : +917660991208</li><br>
+            <li>Github Profile:syedmuzammil037</li><br>
+        </ul>
+        </div>
+        <div class='img'>
+            <img src="images (4).jfif">
+        </div>
+    </footer>
+    <script>
+         function dropDown() {
+            var x = document.getElementById("dropdownClick");
+            if(x.className === "topnav"){
+                x.className += " responsive";
+                console.log("Navbar is Open");
+            }
+            else{
+                x.className = "topnav";
+                console.log("Navbar is Closed");
+            }
+        }
+    </script>
+
+</body>
+</html>
