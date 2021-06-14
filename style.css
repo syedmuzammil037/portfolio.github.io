@@ -1,28 +1,30 @@
 *{
-   
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
 
 
 .nav  a{
 text-decoration: none;
 color:black;
+
 }
 .nav  a:hover{
     color: rgb(252, 186, 5);
+
+    
 }
 
-.r-contact{
-    margin-left: 60px;
-}
  .nav{
     position:sticky;
     top: 0;
-    background-color: whitesmoke;
-    display: flex;  
+    background-color: white;
+    display: flex;
+    justify-content:center; 
+    height: 60px; 
+    padding: 5px;
+    
     
 } 
 .nav ul .logo{
@@ -35,30 +37,43 @@ color:black;
 
  .list li{
     list-style: none;
-    margin: 20px;
-    padding: 2px;
-
-    display: inline;
+    margin: 40px;
+    padding:5px;
+    display:inline;
     font-family: Bahnschrift Condensed;
     font-size: 25px;
+}
+.list li:hover{
+    
+    transform:scale(1.5);
+    transition: 0.2s;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+    box-shadow: 5px 10px 5px rgba(0,0,0,0.5);
+    padding:5px;
+    border-radius: 10px;
+
 }
 
 div ul li.dropDownIcon{
     display: none;
 }
 div ul li.r-contact{
-    margin-left: 600px;
-    border:3px solid black;
-    border-radius: 25px;
+    background-color: rgb(252, 186, 5);
+    border-radius: 10px;
+}
+div ul li.r-contact:hover{
+    background-color: white;
+    box-shadow: 5px 10px 5px rgb(252, 186, 5);
 }
 
 
 /*head*/
 
 header.head{
-    background-image: url(head12.jpg);
-    height: 500px;
-    background-size: cover;  
+    background: url('https://68.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    height: 500px; 
 }
 
 
@@ -76,6 +91,8 @@ header div .resume a{
 header div .resume a:hover{
     color: whitesmoke;
     background-color: black;
+    transition: 0.3s;
+    box-shadow: 5px 10px 5px rgba(116, 116, 116, 0.9);
 }
 .iam{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -86,27 +103,29 @@ header div .resume a:hover{
 }
 .iam1{
     font-size: 25px;
-    color:rgb(252, 186, 5);
+    color: #daad86;;
     
 }
 /*about me*/
 .about{
     text-align: center;
-    font-family: "eurostile", sans-serif;;
-    font-size: 30px;
+    font-family: "eurostile", sans-serif;
+
+    background-size: cover;
+    height:fit-content;
+   
+    padding-top: 5px;
 }
 .contaner{
     display: flex;
+    justify-content:space-around;
+    align-items:center;
     font-family: Bahnschrift Condensed;
-}
-.contaner .box1{
-    text-align: center;
-    width: 70%;
-}
-.contaner .box2{
-    width: 30%;
+    font-size:20px;
     text-align: center;
 }
+
+
 /*skills*/
 .contaner2{
     display: flex;
@@ -117,13 +136,16 @@ header div .resume a:hover{
     padding: 5px;
     font-family: Bahnschrift Condensed;
     border: 1px solid black;
+    background: url('https://68.media.tumblr.com/eb2382a5a4c996cfdab27bc0d1eb51ff/tumblr_nt5umxS1FY1ud7rr3o1_540.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 .contaner2 .box{
     border: 1px solid black;
     padding: 3px;
-    font-size: 75%;
+    font-size: 100%;
     width: 420px;
     margin: 10px;
+    color: whitesmoke;
 
 }
 .contaner2 .aca{
@@ -131,13 +153,15 @@ header div .resume a:hover{
     height:45%;
 }
 .contaner2 .box:hover{
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.795);
+    color: black;
+    transition: 0.5s;
+    box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
 }
 .contaner2 .box a{
     text-decoration: none;
-    border: 2px solid black;
+    border: 1px solid black;
     font-family: Bahnschrift Condensed;
-    background-color: rgb(252, 186, 5) ;
     border-radius: 25px;
     padding:3px;
     color: black;
@@ -146,25 +170,37 @@ header div .resume a:hover{
 .contaner2 .box a:hover{
     background-color: black;
     color: whitesmoke;
+    transition: 0.3s;
+    box-shadow: 5px 10px 5px rgba(116, 116, 116, 0.9);
 }
 /*footer*/
-.foot{
-    display: flex;
-    background-color: rgba(0, 185, 185, 0.637);
-    padding: 10px;
-}
-.foot .contact ul{
-    list-style: none;
-}
-.foot .contact{
-    width: 50%;
+.footer{
+    background: url(about.jpg)no-repeat center center fixed;
+    color: white;
+    background-size: cover;
     text-align: center;
 
 }
-.foot .img{
-    width:50%;
+.contaner3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    font-size: 20px;
+    font-family: Bahnschrift Condensed;
+
+}
+.contaner3 .contact ul{
+    list-style: none;
+}
+.contaner3 .contact{
     text-align: center;
-}   
+}
+.contaner3 .form .d{
+    width: 300px;
+}
+
+ 
  
 @media (max-width:500px){
     *{
@@ -222,21 +258,14 @@ header div .resume a:hover{
         height:fit-content;
     }
     .contaner2 .box{
-        width: 100%;
+        width: fit-content;
     }
-    .foot{
+    .contaner3{
         display: block;
-    }
-    .foot .contact{
         width: 100%;
         text-align: center;
-    
     }
-    .foot .img{
-        width:100%;
-        text-align: center;
-        
-    } 
+
 
    
 
