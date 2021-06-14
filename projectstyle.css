@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 body{
     font-family: Nunito; 
-    background-color: rgba(71, 81, 226, 0.726);
+    background:url(https://sourceonetech.com/wp-content/uploads/2018/01/welive-branding-digital-marketing-background-image-1-1.png);
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.726);
 }
 body a{
     text-decoration: none;
-    color: rgba(1, 10, 10, 0.726);
+    color: rgba(255, 255, 255, 0.726);
     font-size: 20px;
     border: 2px solid black;
     padding-right: 20px;
     padding-left: 20px;
     border-radius: 25px;
+
 
 }
 .contaner div h2{
@@ -19,6 +22,8 @@ body a{
 body a:hover{
     background-color: black;
     color: cornsilk;
+    transition: 0.3s;
+    box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
     
 }
 section{
@@ -27,8 +32,6 @@ section{
 }
 .contaner{
     display: flex;
-    background-color: rgb(52, 255, 171);
-    border-radius: 25px;
 
 }
 .contaner div{
@@ -37,21 +40,26 @@ section{
     height: 200px;
     font-size: 70%;
     margin: 5%;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 25px;
 
 }
 .contaner div:hover{
-    background-color:rgba(255, 255, 255, 0.863)
+    background-color:rgba(255, 255, 255, 0.548);
+    transition: 0.5s;
+    box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
+
 }
 .contaner .box1{
     text-align: center;
     background-image: url(vhdl2.jfif);
     background-size: cover;
+    color: black;
 
 }
 .contaner .box1:hover{
     background-image: none;
+    color: black;
 }
 @media (max-width:500px){
     .contaner{
