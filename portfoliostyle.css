@@ -117,13 +117,16 @@ a {
     body{
         width: fit-content;
         margin: 10%;
+        color:azure;
     }
     .contaner{
         display: block;
-        margin:10%;
+        margin:5%;
+        width: fit-content;
     }
     .box{
-        width: 100%;
+        width: 90%;
+        height:240px;
     }
 }
 
