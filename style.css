@@ -217,7 +217,7 @@ header div .resume a:hover{
         position: absolute;
     }
     div.nav ul.topnav.responsive{
-        position: absolute;
+        
         background-color:whitesmoke;
         width: 97vw;
         height:fit-content;
